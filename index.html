@@ -1,0 +1,386 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook</title>
+    <link rel="stylesheet" href="/style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/a052ba504f.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js.js"></script>
+  </head>
+  <body>
+    <nav>
+      <!-- nav start left -->
+      <div class="nav-left">
+        <a class="navbarimge" href="/index.html">
+          <img src="images/facebook.png" />
+        </a>
+
+        <ul class="barimg">
+          <li>
+            <a href="">
+              <img src="/images/socialbook_img/images/inbox.png" />
+            </a>
+          </li>
+          <li>
+            <a href="">
+              <img src="/images/socialbook_img/images/notification.png" alt=""
+            /></a>
+          </li>
+          <li>
+            <a href="">
+              <img src="/images/socialbook_img/images/video.png" alt=""
+            /></a>
+          </li>
+        </ul>
+      </div>
+      <!-- nav left end -->
+      <!-- nav right start -->
+      <div class="nav-right">
+        <div class="search-box">
+          <img src="/images/socialbook_img/images/search.png" alt="" />
+          <input type="text" placeholder="search" />
+        </div>
+        <div class="user-profile , online"
+        onclick="settingsMenuToggle()">
+          <img src="/images//socialbook_img/images/profile-pic.png" />
+        </div>
+
+        <!-- settings-menu  -->
+        <div class="settings-menu ">
+          <div class="settings-menu-inner">
+ <div class="user-profile">
+            <img src="/images/socialbook_img/images/profile-pic.png" alt="" />
+            <div>
+              <p>omid N</p>
+              <a href="">see your profile</a>
+            </div>
+          </div>
+          <hr>
+          <div class="user-profile" >
+            <img src="/images/socialbook_img/images/feedback.png" alt="" />
+            <div>
+              <p>give a feedback</p>
+              <a href="">help us to improve... </a>
+            </div>
+          </div>
+          <hr>
+
+          <div class="setting-links">
+            <img class="settings-icon" src="/images/socialbook_img/images/setting.png" alt="">
+              <a href="">setting & privecy <img src="/images/socialbook_img/images/arrow.png"></a>
+          </div>
+          
+          <div class="setting-links">
+            <img class="settings-icon" src="/images/socialbook_img/images/help.png" alt="">
+              <a href="">support <img src="/images/socialbook_img/images/arrow.png"></a>
+          </div>
+            <div class="setting-links">
+            <img class="settings-icon" src="/images/socialbook_img/images/display.png" alt="">
+              <a href="">display <img src="/images/socialbook_img/images/arrow.png"></a>
+          </div>
+             <div class="setting-links">
+            <img class="settings-icon" src="/images/socialbook_img/images/logout.png" alt="">
+              <a href="">logout <img src="/images/socialbook_img/images/arrow.png"></a>
+          </div>
+</div>
+      </div>
+      
+    </nav>
+    <!-- nav right end -->
+    <div class="container">
+      <!-- -----left side bar---   -->
+      <div class="left-sidebar">
+        <div class="imp-lins">
+          <a href="#">
+            <img src="/images/socialbook_img/images/news.png" alt="" />Latest
+            news </a
+          ><a href="#">
+            <img
+              src="/images/socialbook_img/images/friends.png"
+              alt=""
+            />friends </a
+          ><a href="#">
+            <img
+              src="/images/socialbook_img/images/group.png"
+              alt=""
+            />group </a
+          ><a href="#">
+            <img src="/images/socialbook_img/images/marketplace.png" alt="" />
+            marketplace
+          </a>
+          <a href="#">
+            <img src="/images/socialbook_img/images/watch.png" alt="" />
+            watch
+          </a>
+          <a href="">see more </a>
+        </div>
+        <div class="shortcut-links">
+          <p>your shortcut</p>
+          <a href="">
+            <img src="/images/socialbook_img/images/shortcut-1.png" alt="" />web
+            developer </a
+          ><a href="">
+            <img src="/images/socialbook_img/images/shortcut-2.png" alt="" />web
+            developer </a
+          ><a href="">
+            <img src="/images/socialbook_img/images/shortcut-3.png" alt="" />web
+            developer </a
+          ><a href="">
+            <img src="/images/socialbook_img/images/shortcut-4.png" alt="" />web
+            developer
+          </a>
+        </div>
+      </div>
+      <!-- left side end -->
+      <!-------mine container bar start----->
+      <div class="mine-container">
+        <div class="story-gallery">
+          <div class="story story1">
+            <img src="/images/socialbook_img/images/upload.png" alt="" />
+            <p>post story</p>
+          </div>
+          <div class="story story2">
+            <img src="/images/socialbook_img/images/member-1.png" alt="" />
+            <p>just a name !</p>
+          </div>
+          <div class="story story3">
+            <img src="/images/socialbook_img/images/member-2.png" alt="" />
+            <p>just a name !</p>
+          </div>
+          <div class="story story4">
+            <img src="/images/socialbook_img/images/member-3.png" alt="" />
+            <p>just a name !</p>
+          </div>
+          <div class="story story5">
+            <img src="/images/socialbook_img/images/member-4.png" alt="" />
+            <p>just a name !</p>
+          </div>
+        </div>
+        <div class="write-post-container">
+          <div class="user-profile">
+            <img src="/images/socialbook_img/images/profile-pic.png" alt="" />
+            <div>
+              <p>omid N</p>
+              <small> public <i class="fa-solid fa-chevron-down"></i> </small>
+            </div>
+          </div>
+          <div class="post-input-container">
+            <textarea
+              rows="3"
+              placeholder="what is on your mind omid??"
+            ></textarea>
+            <div class="add-post-links">
+              <a href=""> <i class="fa-solid fa-video"></i> live video </a>
+              <a href=""> <i class="fa-solid fa-camera"></i>photo / video </a>
+              <a href="">
+                <i class="fa-regular fa-face-laugh-beam"></i>feeling / activitiy
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="/images/socialbook_img/images/profile-pic.png" alt="" />
+              <div>
+                <p>omid N</p>
+                <span>jun 24 2023 , 13:40pm</span>
+              </div>
+            </div>
+            <a href=""> <i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            my first project html css clone <a href=""> #my-fills </a>
+          </p>
+          <img
+            src="/images/socialbook_img/images/feed-image-1.png"
+            class="post-img"
+          />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img
+                  src="/images/socialbook_img/images/like-blue.png"
+                  alt=""
+                />120
+              </div>
+              <div>
+                <img
+                  src="/images/socialbook_img/images/comments.png"
+                  alt=""
+                />45
+              </div>
+              <div>
+                <img src="/images/socialbook_img/images/share.png" alt="" />20
+              </div>
+            </div>
+            <div class="post-profil-icon">
+              <img src="/images/socialbook_img/images/profile-pic.png" alt="" />
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="/images/socialbook_img/images/profile-pic.png" alt="" />
+              <div>
+                <p>omid N</p>
+                <span>jun 24 2023 , 13:40pm</span>
+              </div>
+            </div>
+            <a href=""> <i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            my first project html css clone <a href=""> #my-fills </a>
+          </p>
+          <img
+            src="/images/socialbook_img/images/feed-image-2.png"
+            class="post-img"
+          />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img
+                  src="/images/socialbook_img/images/like-blue.png"
+                  alt=""
+                />120
+              </div>
+              <div>
+                <img
+                  src="/images/socialbook_img/images/comments.png"
+                  alt=""
+                />45
+              </div>
+              <div>
+                <img src="/images/socialbook_img/images/share.png" alt="" />20
+              </div>
+            </div>
+            <div class="post-profil-icon">
+              <img src="/images/socialbook_img/images/profile-pic.png" alt="" />
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="post-container">
+          <div class="post-row">
+            <div class="user-profile">
+              <img src="/images/socialbook_img/images/profile-pic.png" alt="" />
+              <div>
+                <p>omid N</p>
+                <span>jun 24 2023 , 13:40pm</span>
+              </div>
+            </div>
+            <a href=""> <i class="fa-solid fa-ellipsis-v"></i></a>
+          </div>
+
+          <p class="post-text">
+            my first project html css clone <a href=""> #my-fills </a>
+          </p>
+          <img
+            src="/images/socialbook_img/images/feed-image-3.png"
+            class="post-img"
+          />
+          <div class="post-row">
+            <div class="activity-icons">
+              <div>
+                <img
+                  src="/images/socialbook_img/images/like-blue.png"
+                  alt=""
+                />120
+              </div>
+              <div>
+                <img
+                  src="/images/socialbook_img/images/comments.png"
+                  alt=""
+                />45
+              </div>
+              <div>
+                <img src="/images/socialbook_img/images/share.png" alt="" />20
+              </div>
+            </div>
+            <div class="post-profil-icon">
+              <img src="/images/socialbook_img/images/profile-pic.png" alt="" />
+              <i class="fa-solid fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="load-button-btn">
+          <button type="button">LODE MORE</button>
+        </div>
+        <div class="footer">
+          <p>copyright 2023</p>
+        </div>
+      </div>
+
+      <!-------right side bar----->
+      <div class="right-sidebar">
+        <div class="sidebar-titel">
+          <h4>Events</h4>
+          <a href="">see All</a>
+        </div>
+        <div class="event">
+          <div class="left-event">
+            <h3>18</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Social media</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Kish</p>
+            <a href="">More info</a>
+          </div>
+        </div>
+        <div class="event2">
+          <div class="left-event">
+            <h3>22</h3>
+            <span>March</span>
+          </div>
+          <div class="right-event">
+            <h4>Mobile Marketing</h4>
+            <p><i class="fa-solid fa-location-dot"></i>Tehran</p>
+            <a href="">More info</a>
+          </div>
+        </div>
+        <div class="sidebar-titel">
+          <h4>advertisement</h4>
+          <a href="">Close</a>
+        </div>
+        <img
+          src="/images/socialbook_img/images/advertisement.png"
+          alt=""
+          class="sidebar-ads"
+        />
+        <div class="sidebar-titel">
+          <h4>conversataion</h4>
+          <a href="">hide chat</a>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="/images/socialbook_img/images/member-1.png" alt="" />
+          </div>
+          <p>alex DA</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="/images/socialbook_img/images/member-2.png" alt="" />
+          </div>
+          <p>sam H</p>
+        </div>
+        <div class="online-list">
+          <div class="online">
+            <img src="/images/socialbook_img/images/member-3.png" alt="" />
+          </div>
+          <p>jef F</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
